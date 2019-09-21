@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * Twig implementation for the label component.
+ *
+ * Available variables
+ * - button_attributes: An object of attributes for the label, which can contain any
+ * valid HTML attributes.
+ * - button_children: An array of children for the label, or a string representing the
+ *   label.
+ *
+ * @ingroup themeable
+ */
+#}
+{% block button %}
+<button{{ button_attributes }}>
+  {% block button_children %}
+    {{ button_children }}
+  {% endblock %}
+</button>
+{% endblock %}

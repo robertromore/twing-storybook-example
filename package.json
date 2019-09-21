@@ -1,0 +1,18 @@
+{
+  "name": "twing-storybook",
+  "version": "1.0.0",
+  "scripts": {
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook -c .storybook -o build/storybook"
+  },
+  "dependencies": {
+    "@storybook/html": "^5.2.1",
+    "@storybook/preset-scss": "^1.0.2",
+    "twing": "^2.3.6",
+    "twing-loader": "^2.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "babel-loader": "^8.0.6"
+  }
+}
